@@ -4,8 +4,8 @@ end
 
 def summon_captain_planet(elements)
   elements.collect do |element|
-    element[0].upcase
-    element[element.length-1]. << "!"
+
+  element.capitalize + "!"
   end
 end
 
