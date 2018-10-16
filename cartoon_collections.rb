@@ -3,7 +3,10 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(elements)
-  elements.collect { |element| }
+  elements.collect do |element|
+    element[0].upcase
+    element[element.length-1]. << "!"
+  end
 end
 
 def long_planeteer_calls# code an argument here
